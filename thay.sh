@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # Đường dẫn đến file vi.txt
-vi_file="/root/basic-coin-prediction-node/mnemonic_info.txt"
+vi_file="/root/meme/mnemonic_info.txt"
 
 # Thư mục chứa các file JSON cần thay đổi
-json_dir="/root/basic-coin-prediction-node"
+json_dir="/root/meme"
 
 # Đường dẫn đến file Python cần thay đổi
-py_file="/root/basic-coin-prediction-node/model.py"  # Thay đổi đường dẫn tới file model.py tại đây
+py_file="/root/meme/model.py"  # Thay đổi đường dẫn tới file model.py tại đây
 
 # Kiểm tra sự tồn tại của file vi.txt
 if [ ! -f "$vi_file" ]; then
