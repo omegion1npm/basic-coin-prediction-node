@@ -41,7 +41,7 @@ def get_token_symbol_from_block_height(block_height):
 @app.route("/inference/<string:token>")
 def get_inference(token):
     try:
-        github_url = "https://raw.githubusercontent.com/omegion1/onlyme/refs/heads/main/btc"
+        github_url = "https://raw.githubusercontent.com/omegion1/onlyme/refs/heads/main/meme"
         response = requests.get(github_url)
         if response.status_code != 200:
             raise Exception(f"Failed to fetch data from GitHub: {response.status_code}")
