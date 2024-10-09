@@ -55,7 +55,7 @@ def get_inference(token):
         url = f"{base_url}{current_token}&vs_currencies=usd"
         headers = {
             "accept": "application/json",
-            "x-cg-demo-api-key": "API"  # replace with your API key
+            "x-cg-demo-api-key": "CG-KM739CiSfgjeAyr7LPXrTJwg"  # replace with your API key
         }
 
         response = requests.get(url, headers=headers)
@@ -89,7 +89,7 @@ def get_inference(token):
         url = f"{base_url}{current_token}&vs_currencies=usd"
         headers = {
             "accept": "application/json",
-            "x-cg-demo-api-key": "API"  # replace with your API key
+            "x-cg-demo-api-key": "CG-KM739CiSfgjeAyr7LPXrTJwg"  # replace with your API key
         }
 
         response = requests.get(url, headers=headers)
